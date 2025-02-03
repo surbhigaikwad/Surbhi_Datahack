@@ -96,7 +96,7 @@ The system is built using **a modular architecture** that ensures scalability an
 - Styled with **Tailwind CSS** for a clean and consistent design.
 - Includes a **drag-and-drop editor** for post-generation customization.
 
-### *3. Backend*
+### 3. Backend
 - **Node.js with Express.js** handles API requests and data flow efficiently.
 - **Flask (Python-based AI processing)** interprets user prompts and structures the website dynamically.
 
@@ -106,7 +106,23 @@ The system is built using **a modular architecture** that ensures scalability an
 
 ### 5. Database
 - **Firebase Database** for **real-time project storage, authentication credentials, and retrieval**.
+---
 
+## Tech Stack
+
+### Frontend:
+- **React.js** → For interactive UI components.
+- **Tailwind CSS** → For efficient, responsive styling.
+
+### Backend:
+- **Node.js + Express.js** → Handles API calls and input processing.
+- **Python (Flask)** → Runs the AI processing engine.
+
+### AI/NLP Model:
+- **Gemini AI** → Translates user inputs into structured web content.
+
+### Database:
+- **Firebase** → Stores user data, authentication credentials, and saved projects.
 ---
 ## Model UI
 ### Overview
@@ -159,25 +175,6 @@ python update_regenerate.py
 Here, the user will enter the prompt either to regenerate the whole website or update specific sections based on the prompt. The updated website will be saved in the generated folder, where the user can run and check the modifications.
 
 ---
-
-## Tech Stack
-
-### Frontend:
-- **React.js** → For interactive UI components.
-- **Tailwind CSS** → For efficient, responsive styling.
-
-### Backend:
-- **Node.js + Express.js** → Handles API calls and input processing.
-- **Python (Flask)** → Runs the AI processing engine.
-
-### AI/NLP Model:
-- **Gemini AI** → Translates user inputs into structured web content.
-
-### Database:
-- **Firebase** → Stores user data, authentication credentials, and saved projects.
-
----
-
 
 ## Known Issues & Bug
 - **Complex user prompts** may generate incorrect layouts, requiring manual adjustments.
